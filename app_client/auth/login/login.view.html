@@ -1,0 +1,15 @@
+<div class="col-md-6 col-sm-8">
+  <p class="lead">Nesi nariu? <a href="/#register?page={{vm.returnPage }}">Užsiregistruok</a></p>
+  <form ng-submit="vm.onSubmit()">
+    <div role="alert" ng-show="vm.formError" class="alert alert-danger">{{ vm.formError }}</div>
+      <div class="form-group">
+        <label for="email">el.pašto adresas</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" ng-model="vm.credentials.email">
+      </div>
+      <div class="form-group">
+        <label for="password">Slaptažodis</label>
+        <input type="password" class="form-control" id="password" placeholder="Password" ng-model="vm.credentials.password">
+      </div>
+      <button type="submit" class="btn btn-default">Prisijunk!</button>
+    </form>
+</div>

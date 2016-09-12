@@ -1,0 +1,29 @@
+{
+  "name": "einam",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "engines": {
+    "node": "5.1.1",
+    "npm": "3.3.12"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "dotenv": "^2.0.0",
+    "express": "~4.13.1",
+    "express-jwt": "^3.4.0",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.5.7",
+    "morgan": "~1.6.1",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "readline": "0.0.x",
+    "request": "^2.74.0",
+    "serve-favicon": "~2.3.0"
+  }
+}
